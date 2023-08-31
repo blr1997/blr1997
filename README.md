@@ -3,7 +3,7 @@ Coding Problem Assignment
 
 prerequsite:
 1.To install node js.
-2.To run js file use: node js fileName.
+2.To run js file use: node fileName.
 
 # The provided code problem addresses the need for a data structure that maintains and manages recently played songs for different users, 
 while handling storage constraints and maintaining the correct order of song plays and also added Exception handling concept to catch the run time error in the running code.
