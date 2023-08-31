@@ -1,15 +1,24 @@
-Coding Assignment
-OVERVIEW
-Create an in-memory store for recently played songs that can accommodate N songs per user, with a fixed initial capacity. This store must have the capability to store a list of song-user pairs, with each song linked to a user. It should also be able to fetch recently played songs based on the user and eliminate the least recently played songs when the store becomes full.
-EXAMPLE
-Illustration, when 4 different songs were played by a user & Initial capacity is 3: 
-Let's assume that the user has played 3 songs - S1, S2 and S3.
-The playlist would look like -> S1,S2,S3
-When S4 song is played -> S2,S3,S4 
-When S2 song is played -> S3,S4,S2 
-When S1 song is played -> S4,S2,S1
+# TestVagrant Technologies
+Coding Problem Assignment 
 
-Answer:
-This code defines a class RecentlyPlayedStore with methods for playing songs and retrieving recently played songs for a given user.
-The implementation uses a Map to store the song-user pairs, 
-and the least recently played song is removed when the store becomes full.
+prerequsite:
+1.To install node js.
+2.To run js file use: node js fileName.
+
+# The provided code problem addresses the need for a data structure that maintains and manages recently played songs for different users, 
+while handling storage constraints and maintaining the correct order of song plays and also added Exception handling concept to catch the run time error in the running code.
+
+# We can learn including problem solving, data management, algorithm design, and code organization, Exception handling.
+
+#These test cases cover scenarios logic such as:
+1. Playing songs for a user.
+2. Ensuring the store respects its storage by removing the least recently played song.
+3. Retrieving recently played songs for different users.
+4. Handling cases where a user hasn't played any songs.
+5. Testing multiple users with their own song histories.
+6. Running these tests should help you verify the correctness of your RecentlyPlayedStore implementation.
+
+
+
+
+
