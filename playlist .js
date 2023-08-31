@@ -1,6 +1,6 @@
-public class RecentlyPlayedStore {
-  constructor(capacity) {
-    this.capacity = capacity;
+class RecentlyPlayedStore {
+  constructor(storage) {
+    this.storage = storage;
     this.store = new Map();
   }
 
@@ -15,7 +15,7 @@ public class RecentlyPlayedStore {
     }
     this.store.get(user).unshift(song);
 
-    if (this.store.get(user).length > this.capacity) {
+    if (this.store.get(user).length > this.storage) {
       this.store.get(user).pop();
     }
   }
