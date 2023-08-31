@@ -1,4 +1,4 @@
-class RecentlyPlayedStore {
+public class RecentlyPlayedStore {
   constructor(capacity) {
     this.capacity = capacity;
     this.store = new Map();
